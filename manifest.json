@@ -1,9 +1,9 @@
 {
-  "short_name": "Ændres",
-  "name": "Ændres",
+  "short_name": "#ændres",
+  "name": "#ændres",
   "icons": [
     {
-      Cicons-192.png",
+      "src": "/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
