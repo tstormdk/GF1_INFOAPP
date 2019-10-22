@@ -43,7 +43,7 @@ __Billeder og stier__
 Du skal nu til at sætte dine billeder ind.
 Du skal sørge for det passer med stierne.
 Dette er en sti
-```html
+```
 /images/graph_smoking.svg
 ```
 det samme gælder for skrifttyper og eksterne stylesheets
@@ -55,6 +55,32 @@ __manifest.json__
 Et andet sted der skal rettes til er i manifest.json filen
 Hent den fra sitet her eller copy/paste koden fra eksemplet her på siden.
 Her skal der også rettes til.
-```json
-
 ```
+"src": "/images/icons-192.png",
+      "type": "image/png",
+```
+Skal eksempelvis måske ændres til:
+```
+"src": "/icons/icons-192.png",
+      "type": "image/png",
+```
+
+Og alle steder markeret med
+
+__#Ændres__
+
+Skal ændres til det rigtige.
+
+__\<head\>__
+
+Nu skal du copy/paste koden med meta tags fra siden her
+Den hjælper med at gøre din html side til en app :iphone:
+_Hvis du læser tags'ene så kan du næste se hvad de hjælper med_
+
+__netlify - DROP __
+
+Så kan det betale sig at oprette en konto hos Netlify
+Det er her vi skal lægge vores mappe med alle vores filer op.
+Så får vi en www adresse vi kan bruge til at oprette en QR-kode på
+Og
+Oprette en genvej på vores telefon.
