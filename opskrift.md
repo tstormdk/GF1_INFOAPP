@@ -10,7 +10,7 @@ __Start med at planlægge din app, herunder__
   * Diagrammer fra illustrator med data
 * Lav dit ikon der skal være på din telefon, når app'en installeres
   * 512 X 512 pixels
-  * 912 x 192 pixels
+  * 192 x 192 pixels
 
 __Opret en mappe til din app__
 * læg den et sted du ved hvor du kan finde den
