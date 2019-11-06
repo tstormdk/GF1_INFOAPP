@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/loading-bar.css"/>
+<script type="text/javascript" src="assets/loading-bar.js"></script>
+  <title>Web App UI</title>
+</head>
+<body>
+  <h1 id="navnMaaler">Silo X</h1>
+<!--   Måler -->
+  <div id="myItem1" class="ldBar label-center" data-value="1" data-preset="circle"></div>
+  
+<!--  Knap til måler  -->
+  
+  <button onclick="silo(89, 'Silo 2')" >Silo 2</button>
+  
+<!--  Kode til måler  -->
+<script>
+  function silo(antal, navn){
+   document.getElementById('navnMaaler').innerHTML = navn;
+    
+  var bar1 = new ldBar("#myItem1");
+  var bar2 = document.getElementById('myItem1').ldBar;
+  bar1.set(antal);
+  }
+ 
+</script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
