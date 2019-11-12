@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/loading-bar.css"/>
+<script type="text/javascript" src="assets/loading-bar.js"></script>
+  <title>Interface eksempel Billede</title>
+  <style type="text/css">
+  .ldBar-label {
+/*     display: none; */
+  }
+</style>
+</head>
+<body>
+  <div id="myBar" class="ldBar" data-type="fill"
+    data-img="images/batteri4.svg"
+       data-fill-background="#000"
+></div>
+    <script>
+    
+    
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var bar1 = new ldBar("#myBar");
+    //Her kan du skifte 1000 ud med den ønskede hastighed - Husk det er i milisekunder.
+    var id = setInterval(frame, 1000);
+    function frame() {
+      if (i == 101) {
+        clearInterval(id);
+        i = 0;
+      }
+      else {
+        bar1.set(i);
+        i++;
+      }
+    }
+  }
+}
+      move();
+</script>
+  
+  
+  
+</body>
+</html>
